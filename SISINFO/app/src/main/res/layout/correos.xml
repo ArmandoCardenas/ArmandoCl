@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingLeft="4dp"
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textColor="@color/primary_dark_material_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:shadowColor="@color/button_material_dark"
+        android:shadowDx="-4"
+        android:shadowDy="2"
+        android:shadowRadius="7"
+        />
+
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:paddingLeft="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNombre"
+        android:text="TextView"
+        android:textColor="@color/TextoMenus"
+        android:paddingBottom="10dp"/>
+
+</RelativeLayout>

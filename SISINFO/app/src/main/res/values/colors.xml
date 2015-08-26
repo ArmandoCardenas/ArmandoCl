@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="primary" type="color">#598874</item>
+    <item name="primaryDark" type="color">#598874</item>
+    <item name="textColorPrimary" type="color">#FFFFFF</item>
+    <item name="TextoMenus" type="color">#006600</item>
+</resources>
