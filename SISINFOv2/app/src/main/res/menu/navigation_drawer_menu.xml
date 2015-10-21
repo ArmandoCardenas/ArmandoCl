@@ -17,8 +17,8 @@
                 android:title="Contacto" />
                <item
                 android:id="@+id/item_navigation_drawer_help_and_feedback"
-                android:icon="@drawable/ic_feedback_black_24dp"
-                android:title="Feedback" />
+                android:icon="@drawable/ic_facebook2"
+                android:title="SISINFO en Facebook" />
             <item
                 android:id="@+id/item_navigation_drawer_about"
                 android:icon="@drawable/ic_info_black_24dp"
