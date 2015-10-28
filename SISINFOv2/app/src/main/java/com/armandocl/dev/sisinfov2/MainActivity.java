@@ -20,6 +20,7 @@ import com.armandocl.dev.sisinfov2.FragmentsViews.AboutFragment;
 import com.armandocl.dev.sisinfov2.FragmentsViews.BuscarFragment;
 import com.armandocl.dev.sisinfov2.FragmentsViews.ContactoFragment;
 import com.armandocl.dev.sisinfov2.FragmentsViews.InicioFragment;
+import com.armandocl.dev.sisinfov2.FragmentsViews.SIIFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -114,10 +115,15 @@ public class MainActivity extends AppCompatActivity {
                 fragmentTransaction.commit();
                 break;
             case 2:
-                fragmentManager = getSupportFragmentManager();
+                /*fragmentManager = getSupportFragmentManager();
                 fragmentTransaction = fragmentManager.beginTransaction();
                 ContactoFragment contactoFragment = new ContactoFragment();
                 fragmentTransaction.replace(R.id.fragment, contactoFragment);
+                fragmentTransaction.commit();*/
+                fragmentManager = getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
+                SIIFragment siiFragment = new SIIFragment();
+                fragmentTransaction.replace(R.id.fragment, siiFragment);
                 fragmentTransaction.commit();
                 break;
             case 3:

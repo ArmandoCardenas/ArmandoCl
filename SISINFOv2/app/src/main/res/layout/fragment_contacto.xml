@@ -21,10 +21,10 @@
         android:id="@+id/txtPara"
         android:layout_marginTop="66dp"/>
 
-    <EditText
+    <AutoCompleteTextView
         android:id="@+id/edtPara"
         android:layout_below="@+id/txtPara"
-        android:hint="Correo receptor"
+        android:hint="Correo del docente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
