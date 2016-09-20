@@ -1,3 +1,0 @@
-<resources><style name="Theme.Splash" parent="@android:Theme.Holo"><item name="android:windowBackground">
-      @drawable/splashscreen
-    </item><item name="android:windowNoTitle">true</item><item name="android:windowFullscreen">true</item></style><style name="Theme.Base" parent="@android:Theme.Holo"><item name="android:windowFullscreen">true</item></style></resources>
